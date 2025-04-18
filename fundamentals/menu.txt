@@ -1,0 +1,10 @@
+Pizza
+Burger
+Pasta
+Sushi
+Tacos
+Steak
+Salad
+Soup
+Sandwich
+Fried Chicken
