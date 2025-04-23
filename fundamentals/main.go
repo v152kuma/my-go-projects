@@ -1,7 +1,10 @@
 // main means entry point of the program
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 
@@ -17,5 +20,10 @@ func main() {
 	fmt.Println(c)
 	fmt.Println(b)
 	fmt.Println(PI)
-	// Constants can be used in expressions
+
+	name, score := "John Doe", 95.5 // Short variable declaration
+	fmt.Println("Student Scores")
+	fmt.Println(strings.Repeat("-", 14)) // Print a line of dashes from strings package
+	fmt.Println(name, score)
+
 }
